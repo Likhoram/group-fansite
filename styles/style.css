@@ -3,25 +3,37 @@ h1 {
     font-family: fantasy;
 }
 
-.short-bio p{
-    border: 1px black solid;
-    padding: 5em; 
-}
-
-body {
-    text-align: center;
-    background-color: lightyellow;
-    /* background-image: url("../images/alone.jpg"); */
-    background-blend-mode: multiply;
-}
-
 li {
     display: inline;
     margin: 14px;
 }
 
-footer {
-    margin-top: 100px;
-    color: purple;
-    font-weight: bold;
+body {
+    text-align: center;
+    background-color: lightyellow;
 }
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+  color: #ffcc00;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1fc097;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 100px;
+  color: #1fc097;
+}
+
