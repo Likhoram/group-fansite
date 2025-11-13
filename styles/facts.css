@@ -1,0 +1,31 @@
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.facts-list li {
+    list-style-type: square;
+    display: list-item;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.home-alone-facts {
+    background-image: url("../images/home-alone-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 8px dotted #ea5858;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.frosted-box {
+    background: rgba(212, 189, 189, 0.703);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
