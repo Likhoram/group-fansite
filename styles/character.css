@@ -1,6 +1,9 @@
 main.container {
     padding: 30px;
     background-color: lightyellow;
+}
+
+.page-layout-grid {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
@@ -11,6 +14,10 @@ main.container {
     padding: 20px;
     border-radius: 8px;
     grid-column: 2 / 3;
+
+    position: sticky;
+    top: 20px;
+    align-self: start;
 }
 
 #character-list {
@@ -75,4 +82,27 @@ h3 {
     color: #b91c1c;
     margin-bottom: 15px;
 }
+
+#sidebar h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #b91c1c;
+    padding-bottom: 10px;
+}
+
+#sidebar ul { list-style: none; padding: 0; margin: 0; }
+
+#sidebar li a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+#sidebar li a:hover {
+    background-color: #f4f4f4;
+    color: #b91c1c;
+}
+
+
 
