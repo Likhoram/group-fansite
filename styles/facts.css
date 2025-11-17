@@ -1,13 +1,22 @@
 h2 {
     font-family: 'Courier New', Courier, monospace;
+    color: green
 }
 
-
 .facts-list li {
-    list-style-type: square;
     display: list-item;
-    margin: 10px 0;
+    margin: 10px;
+    padding: 5px;
     text-align: left;
+    font-size: 1.1rem;
+}
+
+.facts-list li:nth-of-type(odd) {
+    list-style-type: "\1F384";
+}
+
+.facts-list li:nth-of-type(even) {
+    list-style-type: "\26C4";
 }
 
 .home-alone-facts {
@@ -18,8 +27,8 @@ h2 {
     backdrop-filter: blur(10px);
     border-radius: 8px;
     padding: 20px;
-    max-width: 600px;
-    margin: auto;
+    max-width: 800px;
+    margin: 50px auto;
 }
 
 .frosted-box {
